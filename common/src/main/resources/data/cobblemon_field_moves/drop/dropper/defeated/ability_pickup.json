@@ -1,0 +1,13 @@
+{
+  "trigger": "droploottables:defeated",
+  "tables": [
+    "cobblemon_field_moves:ability/victory/pickup"
+  ],
+  "conditions": [
+    {
+      "condition": "droploottables:ability",
+      "target_pokemon": "droploottables:defeating_pokemon",
+      "abilities": ["pickup"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "trigger": "droploottables:victory",
+  "tables": [
+    "cobblemon_field_moves:ability/victory/honeygather"
+  ],
+  "conditions": [
+    {
+      "condition": "droploottables:ability",
+      "abilities": ["honeygather"]
+    }
+  ]
+}
